@@ -134,3 +134,10 @@ sudo certbot --nginx
 sudo certbot renew --dry-run
 ```
 
+
+**Bonus Permissions Check**
+```bash
+sudo chown -R www-data:www-data /home/benj/django-demo/staticfiles
+sudo chmod -R 755 /home/benj/django-demo/staticfiles
+```
+
