@@ -41,7 +41,7 @@ user=youruser
 sudo supervisorctl reread
 sudo supervisorctl update
 sudo supervisorctl start django-demo
-sudo supervisor restart all
+sudo supervisorctl restart all
 ```
 
 
